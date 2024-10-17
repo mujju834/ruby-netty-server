@@ -1,6 +1,4 @@
-# Gemfile
-
-source 'https://rubygems.org'  # Official RubyGems repository
-
-gem 'sinatra'    # Sinatra framework
-gem 'dotenv'     # For loading environment variables from .env file
+source 'https://rubygems.org'
+gem 'sinatra'   # Sinatra framework
+gem 'dotenv'    # For environment variables
+gem 'rackup'    # For running the server
