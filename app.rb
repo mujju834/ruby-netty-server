@@ -61,7 +61,7 @@ post '/api/upload' do
       File.open(file_path, 'wb') { |f| f.write(temp_file.read) }
   
       status 201
-      { message: 'File uploaded successfully', path: file_path }.to_json
+      { message: 'File uploaded successfully.', path: file_path }.to_json
     else
       status 400
       { message: 'No file uploaded' }.to_json
